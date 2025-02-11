@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = https://blog-backend-aucn.onrender.com;
+const port = 5432;
 const client = require('./db/conn.js');
 const cors = require('cors');
 
