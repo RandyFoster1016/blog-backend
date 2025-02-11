@@ -2,7 +2,7 @@
 const { Client } = require('pg');
 const client = new Client({
     user: 'randy',
-    host: 'localhost',
+    host: 'https://blog-backend-aucn.onrender.com',
     database: 'blogdb',
     password: 'randy',
     port: 5432,
