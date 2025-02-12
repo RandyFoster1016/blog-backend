@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5432;
+const port = process.env.PORT || 8000;
 const client = require('./db/conn.js');
 const cors = require('cors');
 
