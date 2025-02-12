@@ -5,7 +5,7 @@ const client = new Client({
     host: 'localhost',
     database: 'blogdb',
     password: 'randy',
-    port: 5432,
+    port: 8000,
 });
 
 async function check(){
